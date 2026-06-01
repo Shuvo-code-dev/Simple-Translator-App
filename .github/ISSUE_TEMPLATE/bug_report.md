@@ -1,38 +1,46 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+about: Create a report to help us improve Simple Translator App
+title: '[BUG] '
+labels: 'bug'
 assignees: ''
 
 ---
 
-**Describe the bug**
+## Describe the bug
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+## To Reproduce
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. Open the app
+2. Navigate to '...'
+3. Perform action '...'
+4. See error / unexpected behavior
 
-**Expected behavior**
+## Expected behavior
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## Screenshots/Videos
+If applicable, add screenshots or short video clips to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Environment Information
+**Device:**
+- Device Type: [e.g., Android Phone, iPhone, Tablet]
+- Device Model: [e.g., Samsung Galaxy S21, iPhone 12]
+- OS Version: [e.g., Android 12, iOS 14.5]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**App Information:**
+- App Version: [e.g., 1.0.0]
+- Flutter Version: [run `flutter --version`]
+- Dart Version: [run `dart --version`]
 
-**Additional context**
-Add any other context about the problem here.
+**Network Information (if applicable):**
+- Network Type: [e.g., WiFi, 4G, 5G]
+- Connection Speed: [e.g., Good, Poor, Unstable]
+
+## Additional context
+Add any other context about the problem here, such as:
+- Specific languages being translated
+- Whether it's reproducible every time
+- When the bug started occurring
+- Any error messages or logs
