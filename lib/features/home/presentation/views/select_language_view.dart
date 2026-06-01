@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:google_translate_clone/features/home/data/view_model/language_model.dart';
-import 'package:google_translate_clone/features/home/presentation/controller/translate_cubit.dart';
-import 'package:google_translate_clone/features/home/presentation/views/widgets/language_list.dart';
-import 'package:google_translate_clone/features/home/presentation/views/widgets/search_bar.dart';
-import 'package:google_translate_clone/features/home/presentation/views/widgets/select_language_app_bar.dart';
+import 'package:simple_translator_app/features/home/data/view_model/language_model.dart';
+import 'package:simple_translator_app/features/home/presentation/controller/translate_cubit.dart';
+import 'package:simple_translator_app/features/home/presentation/views/widgets/language_list.dart';
+import 'package:simple_translator_app/features/home/presentation/views/widgets/search_bar.dart';
+import 'package:simple_translator_app/features/home/presentation/views/widgets/select_language_app_bar.dart';
 
 class SelectLanguageView extends StatefulWidget {
   const SelectLanguageView({super.key, required this.callback});

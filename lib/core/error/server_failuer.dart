@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:google_translate_clone/core/error/failuer.dart';
+import 'package:simple_translator_app/core/error/failuer.dart';
 
 class ServerFailure extends Failure {
   ServerFailure(super.message);

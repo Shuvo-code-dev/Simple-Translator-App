@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_translate_clone/constants.dart';
-import 'package:google_translate_clone/core/utils/styles.dart';
+import 'package:simple_translator_app/constants.dart';
+import 'package:simple_translator_app/core/utils/styles.dart';
 
 class TranslationResultSection extends StatelessWidget {
   const TranslationResultSection(

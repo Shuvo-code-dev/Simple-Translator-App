@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_translate_clone/constants.dart';
-import 'package:google_translate_clone/features/splash/presentation/views/widgets/splash_view_body.dart';
+import 'package:simple_translator_app/constants.dart';
+import 'package:simple_translator_app/features/splash/presentation/views/widgets/splash_view_body.dart';
 
 class SplashView extends StatelessWidget {
   const SplashView({super.key});

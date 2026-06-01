@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:google_translate_clone/constants.dart';
-import 'package:google_translate_clone/features/home/data/view_model/language_model.dart';
-import 'package:google_translate_clone/features/home/presentation/controller/translate_cubit.dart';
-import 'package:google_translate_clone/features/home/presentation/controller/translate_state.dart';
-import 'package:google_translate_clone/features/home/presentation/views/widgets/language_button.dart';
+import 'package:simple_translator_app/constants.dart';
+import 'package:simple_translator_app/features/home/data/view_model/language_model.dart';
+import 'package:simple_translator_app/features/home/presentation/controller/translate_cubit.dart';
+import 'package:simple_translator_app/features/home/presentation/controller/translate_state.dart';
+import 'package:simple_translator_app/features/home/presentation/views/widgets/language_button.dart';
 
 class LanguageSelectionSection extends StatelessWidget {
   const LanguageSelectionSection({super.key});

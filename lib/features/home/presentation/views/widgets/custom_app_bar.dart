@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_translate_clone/constants.dart';
+import 'package:simple_translator_app/constants.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   const CustomAppBar({super.key});

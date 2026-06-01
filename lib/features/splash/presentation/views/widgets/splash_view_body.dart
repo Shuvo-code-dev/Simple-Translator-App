@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:google_translate_clone/core/utils/app_router.dart';
-import 'package:google_translate_clone/core/utils/assets_data.dart';
-import 'package:google_translate_clone/features/splash/presentation/views/widgets/sliding_text.dart';
+import 'package:simple_translator_app/core/utils/app_router.dart';
+import 'package:simple_translator_app/core/utils/assets_data.dart';
+import 'package:simple_translator_app/features/splash/presentation/views/widgets/sliding_text.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});

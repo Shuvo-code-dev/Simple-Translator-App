@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:google_translate_clone/constants.dart';
-import 'package:google_translate_clone/core/utils/styles.dart';
-import 'package:google_translate_clone/features/home/presentation/controller/translate_cubit.dart';
+import 'package:simple_translator_app/constants.dart';
+import 'package:simple_translator_app/core/utils/styles.dart';
+import 'package:simple_translator_app/features/home/presentation/controller/translate_cubit.dart';
 
 class TextInputSection extends StatelessWidget {
   const TextInputSection({super.key});

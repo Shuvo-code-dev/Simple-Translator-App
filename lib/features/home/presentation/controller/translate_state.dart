@@ -1,4 +1,4 @@
-import 'package:google_translate_clone/features/home/data/view_model/translate_model.dart';
+import 'package:simple_translator_app/features/home/data/view_model/translate_model.dart';
 
 class TranslateState {}
 

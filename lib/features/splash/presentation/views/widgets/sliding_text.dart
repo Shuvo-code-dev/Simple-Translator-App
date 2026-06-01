@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_translate_clone/core/utils/styles.dart';
+import 'package:simple_translator_app/core/utils/styles.dart';
 
 class SlidingText extends StatelessWidget {
   const SlidingText({

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:google_translate_clone/constants.dart';
-import 'package:google_translate_clone/core/utils/styles.dart';
-import 'package:google_translate_clone/features/home/presentation/controller/translate_cubit.dart';
-import 'package:google_translate_clone/features/home/presentation/controller/translate_state.dart';
-import 'package:google_translate_clone/features/home/presentation/views/widgets/language_selection_section.dart';
-import 'package:google_translate_clone/features/home/presentation/views/widgets/text_input_section.dart';
-import 'package:google_translate_clone/features/home/presentation/views/widgets/translate_result.dart';
+import 'package:simple_translator_app/constants.dart';
+import 'package:simple_translator_app/core/utils/styles.dart';
+import 'package:simple_translator_app/features/home/presentation/controller/translate_cubit.dart';
+import 'package:simple_translator_app/features/home/presentation/controller/translate_state.dart';
+import 'package:simple_translator_app/features/home/presentation/views/widgets/language_selection_section.dart';
+import 'package:simple_translator_app/features/home/presentation/views/widgets/text_input_section.dart';
+import 'package:simple_translator_app/features/home/presentation/views/widgets/translate_result.dart';
 
 class HomeViewBody extends StatelessWidget {
   const HomeViewBody({super.key});

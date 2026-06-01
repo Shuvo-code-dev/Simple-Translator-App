@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-import 'package:google_translate_clone/constants.dart';
-import 'package:google_translate_clone/core/utils/styles.dart';
-import 'package:google_translate_clone/features/home/data/view_model/language_model.dart';
+import 'package:simple_translator_app/constants.dart';
+import 'package:simple_translator_app/core/utils/styles.dart';
+import 'package:simple_translator_app/features/home/data/view_model/language_model.dart';
 
 class LanguageList extends StatelessWidget {
   final List<LanguageModel> languages;

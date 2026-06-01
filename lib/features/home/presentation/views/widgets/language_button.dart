@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:google_translate_clone/constants.dart';
-import 'package:google_translate_clone/core/utils/styles.dart';
-import 'package:google_translate_clone/features/home/data/view_model/language_model.dart';
-import 'package:google_translate_clone/features/home/presentation/views/select_language_view.dart';
+import 'package:simple_translator_app/constants.dart';
+import 'package:simple_translator_app/core/utils/styles.dart';
+import 'package:simple_translator_app/features/home/data/view_model/language_model.dart';
+import 'package:simple_translator_app/features/home/presentation/views/select_language_view.dart';
 
 class LanguageButton extends StatelessWidget {
   const LanguageButton({
