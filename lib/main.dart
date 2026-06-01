@@ -2,17 +2,17 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:google_translate_clone/core/utils/api_services.dart';
-import 'package:google_translate_clone/core/utils/app_router.dart';
-import 'package:google_translate_clone/features/home/data/repository/translation_repository_impl.dart';
-import 'package:google_translate_clone/features/home/presentation/controller/translate_cubit.dart';
+import 'package:simple_translator_app/core/utils/api_services.dart';
+import 'package:simple_translator_app/core/utils/app_router.dart';
+import 'package:simple_translator_app/features/home/data/repository/translation_repository_impl.dart';
+import 'package:simple_translator_app/features/home/presentation/controller/translate_cubit.dart';
 
 void main() {
-  runApp(const GoogleTranslateClone());
+  runApp(const SimpleTranslatorApp());
 }
 
-class GoogleTranslateClone extends StatelessWidget {
-  const GoogleTranslateClone({super.key});
+class SimpleTranslatorApp extends StatelessWidget {
+  const SimpleTranslatorApp({super.key});
 
   @override
   Widget build(BuildContext context) {
